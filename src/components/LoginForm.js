@@ -19,7 +19,6 @@ class LoginForm extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {/* <StatusBar barStyle="light-content" /> */}
         <TextInput
           style={styles.input}
           autoCapitalize="none"
@@ -39,7 +38,6 @@ class LoginForm extends Component {
           placeholderTextColor="rgba(225,225,225,0.7)"
           secureTextEntry
         />
-        {/*   <Button onPress={onButtonPress} title = 'Login' style={styles.loginButton} /> */}
         <TouchableOpacity
           style={styles.buttonContainer}
           onPress={this.onButtonPress}
